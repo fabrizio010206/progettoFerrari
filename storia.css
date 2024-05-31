@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+section
+{
+    width: 100%;
+    height: 100%;
+}
+.boxS1 , .boxS2 , .boxS3 , .boxS4 
+{
+    width: 50%;
+    height: 50%;
+}
+.boxS1{
+    margin-top: 150px;
+    color: red;
+    position: center;
+    background-clip: border-box;
+}
+.boxS1, .boxS2, .boxS3, .boxS4  p{
+    color:black;
+    padding: 10px;
+
+}
+.img, .img2, .img3, .img4
+{
+    width: 50%;
+    float:right;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.boxS1 h1, .boxS2 h1, .boxS3 h1, .boxS4 h1
+{
+    color:red;
+    text-align: center;
+}

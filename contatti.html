@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="foto/Ferrari Horse Black (1).png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contatti.css">
+    <title>Contatti</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="foto/Ferrari Horse Black (1).png">
+            <h1>FERRARI</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="storia.html">Storia</a></li>
+                <li><a href="modelli.html">Modelli</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+        <div class="icone">
+            <a href="https://r.search.yahoo.com/_ylt=Awr.jGvS7VZmDHQEWhDc5olQ;_ylu=Y29sbwNpcjIEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1717001811/RO=10/RU=https%3a%2f%2fwww.instagram.com%2fferrari%2f/RK=2/RS=2_8TPxNgWPH0FuCj.dIHD11gijM-"><i class='bx bxl-instagram'></i></a>
+            <a href="https://r.search.yahoo.com/_ylt=Awr.nwfv7VZm.eEE5F7c5olQ;_ylu=Y29sbwNpcjIEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1717001840/RO=10/RU=https%3a%2f%2fwww.facebook.com%2fFerrari%2f/RK=2/RS=RcHinVr3orwoptevBW3Y5Lr.QRU-"><i class='bx bxl-facebook-square'></i></i></a>
+            <a href="https://r.search.yahoo.com/_ylt=Awr.oEUF7lZmLgoF2xbc5olQ;_ylu=Y29sbwNpcjIEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1717001862/RO=10/RU=https%3a%2f%2ftwitter.com%2fFerrari/RK=2/RS=yJ1zgcEmpSRwibTTnrLSfHvktyI-"><i class='bx bxl-twitter' ></i></i></a>
+        </div>
+    </header>
+    <div id contenitore>
+        <form method="post" action="invia.php" name="formcommenti" id="commenti">
+            <fieldset>
+                <legend>Inserisci i tuoi dati personali</legend>
+                <label for="nome">Nome <span>(Obbligatorio)</span></label>
+                <input type="text" name="Nome" id="nome" placeholder="Scrivi il tuo nome" required>
+                <label for="cognome">Cognome<span>(Obbligatorio)</span></label>
+                <input type="text" name="Cognome" id="cognome" placeholder="Scrivi il tuo Cognome"
+                placeholder="Scrivi il tuo cognome">
+                <label for="email">Email<span>(Obbligatorio)</span></label>
+                <input type="email" name="email" id="email" placeholder="Scrivi la tua email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mandaci le tue osservazioni personali o problemi</legend>
+                <label for="oggetto">Oggetto</label><span>(Obbligatorio)</span></label>
+                <input type="text" name="oggetto" id="oggetto" placeholder="oggetto" required>
+                <label for="messaggio">Messaggio</label>
+                <textarea cols="40" rows="20" name="messaggio" id="messaggio" 
+                placeholder="Scrivi il tuo messaggio"></textarea>
+            </fieldset>
+            <button type="reset" name="reset" class="bottone">Anulla</button>
+            <button type="submit" name="invia" class="bottone">Invia</button>
+        </form>
+    </div>
+</body>
+</html>

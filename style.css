@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    padding: 30px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+header img{
+    width: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+nav ul li{
+    margin: 0 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 3px solid transparent;
+    transition: .3s ease-in-out;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #ff2800;
+    color: #ad1a00;
+}
+
+.icone a{
+    text-decoration: none;
+    color: #333;
+    transition:  .3s ease-in-out;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.icone a:hover{
+    color: red;
+}
+/*Home*/
+.Home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box1 h1{
+    font-size: 40px;
+    line-height: 1.6;
+}
+.box1 h3{
+    font-size: 40px;
+    color: #ff2800;
+}
+.box1 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff2800;
+    border: 2px solid #ff2800;
+    transition: .3s ease;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+.box1 a:hover{
+    transform: scale(1.05);
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box2 img{
+    width: 800px;
+}
+
